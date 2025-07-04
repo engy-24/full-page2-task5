@@ -7,7 +7,7 @@ function loginUser() {
         localStorage.setItem("loggedInUser", username);
 
 
-        window.location.href = 'page2.html';
+        // window.location.href = 'page2.html';
     } else {
         alert("Please enter your username.");
     }
